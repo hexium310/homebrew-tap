@@ -5,7 +5,7 @@ class BrewUo < Formula
   desc("Continuously execute 'brew update' and 'brew outdated'")
   homepage(REPOSITORY_URL)
   url("#{REPOSITORY_URL}/archive/#{VERSION}.tar.gz")
-  sha256("117fb49646c0e63d98ec7282ae12a9d086cf40ffe41081486de0fd6f355ea014")
+  sha256("61114bc41499a53ea151e67c9442096e7b73323c8fba7329308f5558a46e9d92")
   head("#{REPOSITORY_URL}.git", :tag => VERSION)
 
   def install
