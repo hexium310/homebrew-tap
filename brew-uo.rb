@@ -1,11 +1,11 @@
 class BrewUo < Formula
   REPOSITORY_URL = "https://github.com/hexium310/brew-uo".freeze
-  VERSION = "0.2.0".freeze
+  VERSION = "0.2.1".freeze
 
   desc("Continuously execute 'brew update' and 'brew outdated'")
   homepage(REPOSITORY_URL)
   url("#{REPOSITORY_URL}/releases/download/#{VERSION}/#{VERSION}.tar.gz")
-  sha256("398ce9226a87891d216b2509227b627a1f981b618b6c97dd5fcecbc8b720f43f")
+  sha256("5611a29c99a344e0de6a86296b9ec1e5754367a8ce8c48b11f9bac1a63492402")
   head("#{REPOSITORY_URL}.git", :tag => VERSION)
 
   def install
