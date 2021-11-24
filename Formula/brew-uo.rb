@@ -1,8 +1,8 @@
 class BrewUo < Formula
   desc "Continuously execute 'brew update' and 'brew outdated'"
   homepage "https://github.com/hexium310/brew-uo"
-  url "https://github.com/hexium310/brew-uo/releases/download/0.4.0/macos.tar.gz"
-  sha256 "726427be10d35b43c636f852910c05187a96a66885eff86afdf579fd18655246"
+  url "https://github.com/hexium310/brew-uo/releases/download/0.4.1/macos.tar.gz"
+  sha256 "7ca9a94f399b5465c6597f1c0f9793f9bd3a47656472fce7ec55fd7305bd5d6c"
 
   def install
     bin.install "brew-uo"
